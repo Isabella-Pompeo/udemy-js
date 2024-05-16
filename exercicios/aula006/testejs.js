@@ -1,0 +1,5 @@
+console.log('Isabella nasceu em 2006')
+console.log('Em 2024 Isabella conheceu Eduardo')
+console.log('Isabella casou-se com Eduardo em 2034')
+console.log('Isabella teve um filho com Eduardo em 2040')
+console.log ('O filho de Isabella se chama Anakin')
