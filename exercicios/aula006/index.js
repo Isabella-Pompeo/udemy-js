@@ -23,3 +23,17 @@ let nomeCliente = 'Jonas'
 console.log(nomeCliente)
 
 // Não pode começar o nome de uma variável com um número
+let no1me;
+// Não pode conter espaços ou traços
+// Utilizamos camelCase
+let nomeCompletoDoCliente = 'Luiz Otavio';
+console.log(nomeCompletoDoCliente);
+
+//case-sensitive
+let nomeCliente = 'Jorge'
+let nomecliente = 'Gabriel'
+
+console.log(nomeCliente, nomecliente);
+
+// Não podemos redeclarar as variavéis com let
+// NAO UTILIZE VAR, UTILIZE LET.
