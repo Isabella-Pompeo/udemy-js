@@ -17,4 +17,4 @@ let varC = 'C'; //A
 [varA, varB, varC] = [varB, varC, varA]
 
 console.log(varA, varB, varC);
-/*
+*/
