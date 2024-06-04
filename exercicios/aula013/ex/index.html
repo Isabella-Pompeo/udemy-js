@@ -5,13 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ex aula 13</title>
+  <style>
+    body {
+      background-color: steelblue;
+      color: white;
+    }
+  </style>
 </head>
 <body>
   
   
   <script>
-    const nome = prompt('Digite seu nome:');
-    console.log(Nome);
+    const nome = prompt('Digite seu nome completo:');
+    document.body.innerHTML += `Seu nome é ${nome}<br />`
+    document.body.innerHTML += `Seu nome tem ${nome.length} letras <br />`
+    document.body.innerHTML += `A segunda letra do seu nome é: ${nome.charAt(1)} <br />`
+    document.body.innerHTML += `Qual o primeiro indice da letra do seu nome? ${nome.charAt(0)} <br />`
+    document.body.innerHTML += `Qual o ultimo indice da letra do seu nome? ${nome.charAt(20)} <br />`
+    document.body.innerHTML += `As ultimas tres letras do seu nome sao: ${nome.slice(-3)} <br />`
+    document.body.innerHTML += `As palavras do seu nome sao: ${nome.split(' ')
+    } <br />`
+    document.body.innerHTML += `Seu nome com letras maisculas: ${nome.toUpperCase()} <br />`
+    document.body.innerHTML += `Seu nome com letras minusculas: ${nome.toLowerCase()}`
   </script>
 </body>
 </html>
