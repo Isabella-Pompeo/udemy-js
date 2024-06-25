@@ -7,6 +7,7 @@ console.log(nome, ' casou-se com Eduardo em 2034')
 console.log(nome, ' teve um filho com Eduardo em 2040')
 console.log ('O filho de ', nome, ' se chama Anakin')
 
+/*
 let name1; //Declarou a variável
 let name1 = 'João' //Inicializando a variável
 console.log(nome);
@@ -33,7 +34,7 @@ console.log(nomeCompletoDoCliente);
 let nomeCliente = 'Jorge'
 let nomecliente = 'Gabriel'
 
-console.log(nomeCliente, nomecliente);
+console.log(nomeCliente, nomecliente)*/
 
 // Não podemos redeclarar as variavéis com let
 // NAO UTILIZE VAR, UTILIZE LET.
