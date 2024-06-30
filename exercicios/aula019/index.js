@@ -2,6 +2,7 @@
 Primitivos (imutáveis) - strig, number, boolean, undefined, null (bigint, symbol) - Valores copiados
 
 Referência (mutável) - array, object, function - Passados por referência
+
 */
 
 let a = 'A'
@@ -16,7 +17,7 @@ const a = { // referencia
     nome: 'Luiz',
     sobrenome: 'Otávio'
 };
-const b = a;
+const b =[...a];//copia com array
 
 b.nome = 'João';
 console.log(a);
