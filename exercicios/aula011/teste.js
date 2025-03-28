@@ -1,3 +1,7 @@
+window.alert('Com a nossa mensagem');
+window.confirm('Deseja continuar esta ação?')
+window.prompt('Escreva seu nome:')
+
 let num1 = prompt('Digite um número:')
 let num2 = prompt('Digite outro número:')
 
