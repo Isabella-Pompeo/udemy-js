@@ -21,6 +21,7 @@
 
 */
 
+/*
 //let contador = 1;
 contador++; //2 (++contador)
 contador++; //3
