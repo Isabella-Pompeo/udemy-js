@@ -8,9 +8,9 @@
   % Resto da Divisão
 */
 
-const num1 = 5; // '5' -> pra concatenar
-const num2 = 10;
-console.log(num1 + num2)
+//const num1 = 5; // '5' -> pra concatenar
+//const num2 = 10;
+//console.log(num1 + num2)
 
 /* ORDEM DE PRECEDÊNCIA
 
@@ -21,7 +21,7 @@ console.log(num1 + num2)
 
 */
 
-let contador = 1;
+//let contador = 1;
 contador++; //2 (++contador)
 contador++; //3
 console.log(contador++)
@@ -67,13 +67,15 @@ const num2 = parseInt('5')
 console.log(num1 * num2);
 console.log(type of num2);
 
-const num1 = 10;
-const num2 = parseFloat('15.2')
-console.log(num1 * num2);
-console.log(type of num2);
 
 const num1 = 10;
 const num2 = Number('5')
 console.log(num1 * num2);
 console.log(type of num2);
 */
+
+const num1 = 10;
+const num2 = parseFloat('15.2')
+console.log(num1 * num2);
+console.log(typeof num2);
+
