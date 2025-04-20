@@ -20,9 +20,9 @@ console.log(umaString.indexOf('o', 3))
 console.log(umaString.lastIndexOf('o')
 
 
-console.log(umaString.match(/[a-z]/g));
+console.log(umaString.match(/[a-z]/g)); global, ou seja, encontra todas as ocorrências e devolve um array
 
-console.log(umaString.search(/[a-z]/g))
+console.log(umaString.search(/[a-z]/g)) procura a posição da primeira ocorrência que bate com a expressão.
 
 console.log(umaString.search(/x/g))
 
@@ -39,17 +39,17 @@ console.log(umaString.replace(/r/g, 'l'))
 
 //FATIAMENTO DE STRING
 
-console.log(umaString.length);
+console.log(umaString.length); total de caracteres
 
-console.log(umaSring.slice(2, 6));
+console.log(umaString.slice(2, 6)); Corta a string a partir do índice 2 até o índice 6 (excluindo o 6).
 
-console.log(umaString.slice(-5))
+console.log(umaString.slice(-5)) começa a contar de trás para frente, a ártir do -1.
 
-console.log(umaString.slice(-5, umaString.length - 1))
+console.log(umaString.slice(-5, umaString.length - 1)) "exto"
 
-console.log(umaString.slice(-5, -1))
+console.log(umaString.slice(-5, -1)) "exto"
 
-console.log(umaString.slice(umaString.length - 5, umaString.length - 1)) 
+console.log(umaString.slice(umaString.length - 5, umaString.length - 1)) "exto"
 
 */
 let umaString = "O rato roeu a roupa do rei de roma";
@@ -57,7 +57,7 @@ let umaString = "O rato roeu a roupa do rei de roma";
 
 console.log(umaString.replace(/r/g, 'l'))
 
-console.log(umaString.substring(umaString.length - 5, umaString.length - 1)) 
+console.log(umaString.substring(umaString.length - 5, umaString.length - 1)) // não aceita negativos e se inverter as posições, ele troca elas pra você
   
 /*  
   //DIVISAO DE ESPAÇOS
