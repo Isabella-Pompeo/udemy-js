@@ -9,7 +9,9 @@ num1 += num2; //0.9
 num1 += num2; //1.0
 num1 += num2;
 
-num1 = parseFloat(num1.toFixed(2))
+num1 = parseFloat(num1.toFixed(2)) converte o número para string, com 2 casas decimais. O resultado aqui é uma string, não um número. parseFloat() → converte a string de volta para número decimal. 
+
+
 
 console.log(num1);
 console.log(Number.isInteger(num1));

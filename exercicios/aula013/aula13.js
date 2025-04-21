@@ -43,7 +43,7 @@ console.log(umaString.length); total de caracteres
 
 console.log(umaString.slice(2, 6)); Corta a string a partir do índice 2 até o índice 6 (excluindo o 6).
 
-console.log(umaString.slice(-5)) começa a contar de trás para frente, a ártir do -1.
+console.log(umaString.slice(-5)) começa a contar de trás para frente, a pártir do -1.
 
 console.log(umaString.slice(-5, umaString.length - 1)) "exto"
 
@@ -62,11 +62,11 @@ console.log(umaString.substring(umaString.length - 5, umaString.length - 1)) // 
 /*  
   //DIVISAO DE ESPAÇOS
 
-console.log(umaString.split(' '));
+console.log(umaString.split(' ')); Divide a string em um array de pedaços, usando o separador que você passar.
 
-console.log(umaString.split('r'));
+console.log(umaString.split('r'));  dividir a string sempre que encontrar a letra 'r'.
 
-console.log(umaString.split(' ', 3));
+console.log(umaString.split(' ', 3)); Divide pelos espaços, no máximo 3 vezes
 
 //string toda MAIUSCULA
 console.log(umaString.toUpperCase());
@@ -75,5 +75,3 @@ console.log(umaString.toUpperCase());
 console.log(umaString.toLowerCase())
 
 */
-
-
