@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+:root {
+  --cor1: #4d0a18;
+  --cor2: #341515;
+}
+
+body {
+  background: linear-gradient(to bottom, #4d0a18, #341515);
+  color: #aca494;
+  text-align: center;
+  font: Arial;
+}
+
+header {
+  margin: 30px;
+  padding: 30px;
+}
+
+.blocoFilme {
+  background-color: #730c1e;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  width: 300px;
+}
