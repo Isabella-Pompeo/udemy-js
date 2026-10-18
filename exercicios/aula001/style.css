@@ -1,24 +1,51 @@
 @charset "UTF-8";
 
 :root {
-  --cor1: #4d0a18;
-  --cor2: #341515;
+  --cor1: #0f0f0b;
+  --cor2: #513813;
+  --cor3: #b6841b;
+  --cor4: #f2d26a;
+  --cor5: #15252f;
+  --cor6: rgb(192, 191, 191);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
 }
 
 body {
-  background: linear-gradient(to bottom, #4d0a18, #341515);
-  color: #aca494;
-  text-align: center;
-  font: Arial;
+  background: linear-gradient(to bottom, var(--cor5), var(--cor1));
+  color: var(--cor6);
 }
 
 header {
-  margin: 30px;
-  padding: 30px;
+  background-color: #15252f;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("headerimagem.jpg");
+  /* Garante que a imagem cobre todo o espaço do header sem distorcer */
+  background-size: cover;
+  /* Centra a imagem no bloco */
+  background-position: center;
+  /* Evita que a imagem se repita (tiles) */
+  background-repeat: no-repeat;
+  padding: 300px;
+  text-align: center;
+  padding-right: 60%;
+}
+
+header > h2 {
+  margin: 20px;
 }
 
 .blocoFilme {
-  background-color: #730c1e;
+  background-color: var(--cor3);
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 20px;
