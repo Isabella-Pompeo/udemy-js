@@ -29,11 +29,8 @@ header {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("headerimagem.jpg");
-  /* Garante que a imagem cobre todo o espaço do header sem distorcer */
   background-size: cover;
-  /* Centra a imagem no bloco */
   background-position: center;
-  /* Evita que a imagem se repita (tiles) */
   background-repeat: no-repeat;
   padding: 300px;
   text-align: center;
